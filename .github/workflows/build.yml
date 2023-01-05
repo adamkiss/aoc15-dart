@@ -20,8 +20,8 @@ jobs:
       - name: Install dependencies
         run: dart pub get
 
-      - name: WTF
-        run: pwd
+      - name: Create the build directory
+        run: mkdir build
 
       - name: Compile the app
         run: dart compile exe bin/aoc15.dart -o build/aoc15_${{ matrix.os }}
