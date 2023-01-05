@@ -7,7 +7,7 @@
 
 # Conventional directory for build output.
 build/
-bin/aoc15
+!build/.gitkeep
 
 # Inputs
 inputs/*
