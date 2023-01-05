@@ -21,9 +21,9 @@ linter:
     unnecessary_brace_in_string_interps: false # Yeah, `${}` is for 
 
 
-# analyzer:
-#   exclude:
-#     - path/to/excluded/files/**
+analyzer:
+  exclude:
+    - lib/day__scaffold.dart
 
 # For more information about the core and recommended set of lints, see
 # https://dart.dev/go/core-lints

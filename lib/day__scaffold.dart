@@ -2,7 +2,7 @@ import 'dart:io';
 
 String _input() => File('inputs/2015/day_02.txt').readAsStringSync();
 
-void run() {
+void main() {
 	// Get input
 	Iterable<int> INPUT = _input();
 
