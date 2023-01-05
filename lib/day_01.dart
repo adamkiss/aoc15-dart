@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'package:path/path.dart' as p;
 
 String _input() => File('inputs/2015/day_01.txt').readAsStringSync();
 
