@@ -2,7 +2,7 @@ import 'dart:io';
 
 String _input() => File('inputs/2015/day_01.txt').readAsStringSync();
 
-void run() {
+void main() {
 	Iterable<int> steps = _input().split('').map((step) => step == '(' ? 1 : -1);
 
 	int floor = 0;
