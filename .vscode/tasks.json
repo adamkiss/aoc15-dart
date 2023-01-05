@@ -1,0 +1,31 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run the AOC15 Code",
+            "type": "shell",
+            "command": "time dart run",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Create a new day",
+            "type": "shell",
+            "command": "cp lib/day__scaffold.dart lib/day_${input:day_scaffold_nr}.dart",
+            "problemMatcher": [],
+        }
+    ],
+    "inputs": [
+        {
+            "id": "day_scaffold_nr",
+            "description": "Day?",
+            "default": "24",
+            "type": "promptString"
+        }
+    ]
+}
