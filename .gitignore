@@ -7,6 +7,7 @@
 
 # Conventional directory for build output.
 build/
+bin/aoc15
 
 # Inputs
 inputs/*
