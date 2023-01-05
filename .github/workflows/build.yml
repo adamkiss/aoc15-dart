@@ -20,7 +20,10 @@ jobs:
       - name: Install dependencies
         run: dart pub get
 
-      - name: Hello world
+      - name: WTF
+        run: pwd
+
+      - name: Compile the app
         run: dart compile exe bin/aoc15.dart -o build/aoc15_${{ matrix.os }}
 
       - name: Upload Artifacts
