@@ -1,8 +1,8 @@
 name: Dart
 
 on:
-  push:
-    branches: [ main ]
+  # push:
+  #   branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -29,4 +29,4 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with:
-          path: build/aoc15_${{ matrix.os }}
+          path: build/*
