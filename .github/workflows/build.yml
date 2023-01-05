@@ -3,7 +3,7 @@ name: Dart
 on:
   push:
     branches: [ main ]
-  workflow_trigger:
+  workflow_dispatch:
 
 jobs:
   build:
