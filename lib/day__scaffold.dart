@@ -3,12 +3,12 @@ import 'dart:io';
 String _input() => File('inputs/2015/day_02.txt').readAsStringSync();
 
 void main() {
-	// Get input
-	Iterable<int> INPUT = _input();
+	/* PART A: RUN 1 */
 
-	// Run part 1
-	stdout.write(' A: ');
+	stdout.write(' A: ${resultA}');
 
-	// Run part 2
-	stdout.write(' B: ');
+
+	/* PART B: RUN 1 */
+
+	stdout.write(' B: ${resultB}');
 }
