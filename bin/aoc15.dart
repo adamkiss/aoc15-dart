@@ -5,6 +5,7 @@ import 'package:aoc15/day_02.dart' as day_02;
 import 'package:aoc15/day_03.dart' as day_03;
 // import 'package:aoc15/day_04.dart' as day_04;
 import 'package:aoc15/day_05.dart' as day_05;
+import 'package:aoc15/day_06.dart' as day_06;
 
 void main(List<String> arguments) {
 	stdout.write('Running day 01…  '); day_01.main(); stdout.writeln();
@@ -13,4 +14,5 @@ void main(List<String> arguments) {
 	// Takes 10 seconds to run
 	// stdout.write('Running day 04…  '); day_04.main(); stdout.writeln();
 	stdout.write('Running day 05…  '); day_05.main(); stdout.writeln();
+	stdout.write('Running day 06…  '); day_06.main(); stdout.writeln();
 }
